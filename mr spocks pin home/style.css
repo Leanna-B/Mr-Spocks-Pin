@@ -1,0 +1,82 @@
+/* CSS files add styling rules to your content */
+
+div.sticky {
+  position: 0, 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #6495ED;
+  background-size:auto 100%;
+
+
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+  margin: 0 auto; /* Center it */
+
+}
+
+h2 {
+  font-family: monospace;
+  color: #DCDCDC;
+
+}
+
+h3 {
+  font-family: monospace;
+  color: #FF7F50;
+  font-style: bold;
+
+}
+
+h4 {
+  font-family: monospace;
+  color: #FF7F50;
+  font-style: bold;
+
+}
+
+.container {
+  position: 0, 0;
+  max-width: 800px; /* Maximum width */
+}
+
+.container .content {
+  position: static;
+  position: left 800; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+  margin: 0 auto; /* Center it */
+
+}
+
+.container1 {
+  position: 0, 0;
+  max-width: 800px; /* Maximum width */
+}
+
+.container1 .content1 {
+  position: static;
+  position: left 200; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+  margin: 0 auto; /* Center it */
+
+}
